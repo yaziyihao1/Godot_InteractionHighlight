@@ -35,11 +35,12 @@
         ├── highlight_renderer.gd
         ├── highlight_style.gd
         ├── ...
-        └── examples/
-            └── quick_start.gd
+        └── overlay.gdshader
 ```
 
-保留文件夹中的所有文件，包括 `.uid`。如果已有 `addons`，只把 `interaction_highlight` 放进去。**不用复制本项目的根目录 project.godot、examples 或 tests，也不用在“插件”页启用任何东西。**
+保留文件夹中的所有文件，包括 `.uid`。如果已有 `addons`，只把 `interaction_highlight` 放进去。**不用覆盖你自己的 `project.godot`，也不要复制本项目的演示场景或 tests；不用在“插件”页启用任何东西。**
+
+可选的宿主入门脚本不属于 addon。它位于本仓库的 `scripts/quick_start.gd`；如果需要检查器拖拽方式，只把它复制到自己项目的 `scripts/` 中。
 
 ### 2. 检查项目条件
 

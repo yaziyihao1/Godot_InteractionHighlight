@@ -33,11 +33,12 @@ your-project/
         ├── highlight_renderer.gd
         ├── highlight_style.gd
         ├── ...
-        └── examples/
-            └── quick_start.gd
+        └── overlay.gdshader
 ```
 
-Keep all addon files, including `.uid` files. If you already have `addons`, put only `interaction_highlight` inside it. **Do not overwrite your project.godot or copy the release's root examples/tests. No editor-plugin activation is needed.**
+Keep all addon files, including `.uid` files. If you already have `addons`, put only `interaction_highlight` inside it. **Do not overwrite your `project.godot` or copy the release's demo/test folders. No editor-plugin activation is needed.**
+
+The optional host-side example is not part of the addon. It is at `scripts/quick_start.gd` in this repository; copy it into your own project's `scripts/` folder only if you want the fixed-target Inspector setup.
 
 ### Check project requirements
 
