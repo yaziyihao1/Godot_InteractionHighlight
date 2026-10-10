@@ -1,0 +1,3 @@
+# Optional pixel-checker dependencies; not required by the Godot addon.
+Pillow
+numpy

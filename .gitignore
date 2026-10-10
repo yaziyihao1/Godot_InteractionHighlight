@@ -1,0 +1,32 @@
+# Godot generated state; keep tracked .uid files.
+.godot/
+.import/
+export.cfg
+export_credentials.cfg
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local build/run and GPU QA outputs
+/bin/
+/obj/
+/dist/
+/runs/
+/qa-output/
+/qa-outputs/
+/gpu_qa/
+/interaction_highlight_qa/
+**/pixel_evidence/
+**/evidence/
+*.log
+*.zip
+/release_manifest.json
+
+# Local editor/OS state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
